@@ -1,11 +1,9 @@
-import { defineConfig } from 'vite';
-import vue from '@vitejs/plugin-vue';
-import svgLoader from 'vite-svg-loader';
+import { defineConfig } from "vite"
+import vue from "@vitejs/plugin-vue"
 
 export default defineConfig({
-  server: { port: 8080 },
-
-  build: { target: 'es2022' },
-
-  plugins: [vue(), svgLoader()],
-});
+  plugins: [vue()],
+  server: {
+    port: 5173
+  }
+})
