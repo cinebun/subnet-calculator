@@ -1,4 +1,4 @@
-# СА
+# СА Романова Д.Р ИС-323
 
 https://github.com/dergunovs/sa
 
